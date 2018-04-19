@@ -1,7 +1,6 @@
-package com.xsb.study.analysis;
+package com.xsb.study.dynamicprogramming;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -27,7 +26,7 @@ public class DynamicProgramming {
 //        dynamicProgramming.bottomUpCutRod(price, 5);
 //        dynamicProgramming.bottomUpCutRod(price, 10);
 
-        dynamicProgramming.extendedBottomUpCutRod(price, 4);
+        dynamicProgramming.bottomUpCutRod(price, 4);
     }
 
     private int cutRod(int[] price, int n) {
