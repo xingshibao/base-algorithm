@@ -1,6 +1,8 @@
 package com.xsb.study.sword;
 
 /**
+ * 1元，2元等硬币组合成100元有多少种情况
+ *
  * @author shibao.xing
  * @since 2018-04-20 11:15
  */
