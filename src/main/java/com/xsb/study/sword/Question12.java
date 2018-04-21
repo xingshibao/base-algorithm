@@ -13,7 +13,7 @@ public class Question12 {
         question12.print1ToMaxOfNDigits(3);
     }
 
-    public void print1ToMaxOfNDigits(int n) {
+    private void print1ToMaxOfNDigits(int n) {
         if (n <= 0) {
             return;
         }
@@ -26,7 +26,7 @@ public class Question12 {
 
     }
 
-    public void print1ToMaxOfNDigitsRecursively(char[] chars, int length, int index) {
+    private void print1ToMaxOfNDigitsRecursively(char[] chars, int length, int index) {
 
         if (index == length - 1) {
             System.out.println(chars);
